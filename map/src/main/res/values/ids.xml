@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="B_search" type="id" />
+    <item name="TF_location" type="id" />
+    <item name="map" type="id" />
+    <item name="B_restaurants" type="id" />
+    <item name="B_to" type="id" />
+    <item name="B_schools" type="id" />
+    <item name="B_hopistals" type="id" />
+</resources>

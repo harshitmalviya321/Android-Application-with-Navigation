@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/option1"
+        android:orderInCategory="100"
+        android:title="Previous Appointments"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/option2"
+        android:orderInCategory="100"
+        android:title="Locate Doctors"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/option3"
+        android:orderInCategory="100"
+        android:title="Appoint Doctor"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,70 @@
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="687dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-6dp" />
+
+    <EditText
+        android:id="@+id/TF_location"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+
+        android:text="Search" />
+
+    <Button
+        android:id="@+id/B_search"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="226dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="9dp"
+        android:background="@color/colorPrimary"
+        android:onClick="onClick"
+        android:text="Search"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/B_hopistals"
+        android:layout_width="395dp"
+        android:layout_height="78dp"
+        android:layout_below="@+id/TF_location"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="586dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:onClick="onClick"
+        android:text="Hospitals"
+        android:textStyle="bold" />
+
+
+
+
+
+
+</RelativeLayout>

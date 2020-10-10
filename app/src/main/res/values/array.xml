@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="examples">
+        <item>You want to LOGOUT?</item>
+        <item>Click Here</item>
+    </string-array>
+
+    <string-array name="Home">
+        <item>Welcome to</item>
+        <item>EMERGENCY</item>
+        <item>MEDICAL</item>
+        <item>SERVICES</item>
+    </string-array>
+
+
+</resources>
